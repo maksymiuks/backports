@@ -1,4 +1,4 @@
-.source("helper/helper.R")
+source("helper/helper.R")
 
 f = get(".libPaths", envir = baseenv())
 expect_same = makeCompareFun(f, backports:::.libPaths)
